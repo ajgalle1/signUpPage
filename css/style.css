@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background-image: url('../images/gym.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Rock Salt', cursive;
+    font-size: .5em;
+}
+h1{
+    margin:25px;
+}
+
+a{
+    color:white;
+
+}
+a:hover{
+    color:lightblue;
+}
+input{
+    width:8em;
+}
+#container {
+    border-radius: 3px 4px;
+    background-image: linear-gradient(lightgrey, black);
+    height: 400px;
+    width: 500px;
+    box-shadow: black  10px 10px;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+input{
+    margin:10px 10px 10px 10px;
+}
+
+#errorNotice{
+   
+    color:maroon;
+    background-color:white;
+    width:15em;
+    border-radius:4px;
+    
+}
+
+input:hover {
+    transition-duration: 300ms;
+    box-shadow: black 10px 10px;
+}
+
+#submitBtn:hover {
+    transition-duration: 200ms;
+    box-shadow: black 10px 10px;
+}
+
